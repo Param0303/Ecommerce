@@ -1,29 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-03T03:14:48 IST" name="Suite" finished-at="2024-03-03T03:16:00 IST" duration-ms="71153">
+  <suite started-at="2024-03-03T21:53:58 IST" name="mySuite" finished-at="2024-03-03T21:54:33 IST" duration-ms="34984">
     <groups>
-      <group name="regrassion">
-        <method signature="TC002_Login.logintest()[pri:0, instance:TestCases.TC002_Login@477b4cdf]" name="logintest" class="TestCases.TC002_Login"/>
-        <method signature="TC001_registration.homepage()[pri:1, instance:TestCases.TC001_registration@139982de]" name="homepage" class="TestCases.TC001_registration"/>
-        <method signature="TC001_registration.Registration()[pri:2, instance:TestCases.TC001_registration@139982de]" name="Registration" class="TestCases.TC001_registration"/>
-      </group> <!-- regrassion -->
       <group name="sanity">
-        <method signature="TC002_Login.logintest()[pri:0, instance:TestCases.TC002_Login@477b4cdf]" name="logintest" class="TestCases.TC002_Login"/>
-        <method signature="TC004_CartAproduct.login()[pri:1, instance:TestCases.TC004_CartAproduct@77c2494c]" name="login" class="TestCases.TC004_CartAproduct"/>
-        <method signature="TC004_CartAproduct.Scarch()[pri:2, instance:TestCases.TC004_CartAproduct@77c2494c]" name="Scarch" class="TestCases.TC004_CartAproduct"/>
+        <method signature="TC005_purchase.login()[pri:1, instance:TestCases.TC005_purchase@5b12b668]" name="login" class="TestCases.TC005_purchase"/>
+        <method signature="TC005_purchase.Cart()[pri:2, instance:TestCases.TC005_purchase@5b12b668]" name="Cart" class="TestCases.TC005_purchase"/>
+        <method signature="TC005_purchase.purchase()[pri:3, instance:TestCases.TC005_purchase@5b12b668]" name="purchase" class="TestCases.TC005_purchase"/>
       </group> <!-- sanity -->
       <group name="master">
-        <method signature="TC001_registration.homepage()[pri:1, instance:TestCases.TC001_registration@139982de]" name="homepage" class="TestCases.TC001_registration"/>
-        <method signature="TC004_CartAproduct.login()[pri:1, instance:TestCases.TC004_CartAproduct@77c2494c]" name="login" class="TestCases.TC004_CartAproduct"/>
-        <method signature="TC001_registration.Registration()[pri:2, instance:TestCases.TC001_registration@139982de]" name="Registration" class="TestCases.TC001_registration"/>
-        <method signature="TC004_CartAproduct.Scarch()[pri:2, instance:TestCases.TC004_CartAproduct@77c2494c]" name="Scarch" class="TestCases.TC004_CartAproduct"/>
+        <method signature="TC005_purchase.login()[pri:1, instance:TestCases.TC005_purchase@5b12b668]" name="login" class="TestCases.TC005_purchase"/>
+        <method signature="TC005_purchase.Cart()[pri:2, instance:TestCases.TC005_purchase@5b12b668]" name="Cart" class="TestCases.TC005_purchase"/>
+        <method signature="TC005_purchase.purchase()[pri:3, instance:TestCases.TC005_purchase@5b12b668]" name="purchase" class="TestCases.TC005_purchase"/>
       </group> <!-- master -->
     </groups>
-    <test started-at="2024-03-03T03:14:48 IST" name="master1" finished-at="2024-03-03T03:16:00 IST" duration-ms="71153">
-      <class name="TestCases.TC002_Login">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC002_Login@477b4cdf]" started-at="2024-03-03T03:15:14 IST" name="setup" finished-at="2024-03-03T03:15:24 IST" duration-ms="9839" status="PASS">
+    <test started-at="2024-03-03T21:53:58 IST" name="mytest" finished-at="2024-03-03T21:54:33 IST" duration-ms="34984">
+      <class name="TestCases.TC005_purchase">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC005_purchase@5b12b668]" started-at="2024-03-03T21:53:58 IST" name="setup" finished-at="2024-03-03T21:54:10 IST" duration-ms="11255" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -39,75 +33,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="logintest()[pri:0, instance:TestCases.TC002_Login@477b4cdf]" started-at="2024-03-03T03:15:24 IST" name="logintest" finished-at="2024-03-03T03:15:32 IST" duration-ms="8222" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logintest -->
-        <test-method is-config="true" signature="close()[pri:0, instance:TestCases.TC002_Login@477b4cdf]" started-at="2024-03-03T03:15:32 IST" name="close" finished-at="2024-03-03T03:15:32 IST" duration-ms="313" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- TestCases.TC002_Login -->
-      <class name="TestCases.TC004_CartAproduct">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC004_CartAproduct@77c2494c]" started-at="2024-03-03T03:15:32 IST" name="setup" finished-at="2024-03-03T03:15:43 IST" duration-ms="10609" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="login()[pri:1, instance:TestCases.TC004_CartAproduct@77c2494c]" started-at="2024-03-03T03:15:43 IST" name="login" finished-at="2024-03-03T03:15:48 IST" duration-ms="4731" status="PASS">
+        <test-method signature="login()[pri:1, instance:TestCases.TC005_purchase@5b12b668]" started-at="2024-03-03T21:54:10 IST" name="login" finished-at="2024-03-03T21:54:15 IST" duration-ms="4993" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="Scarch()[pri:2, instance:TestCases.TC004_CartAproduct@77c2494c]" started-at="2024-03-03T03:15:48 IST" name="Scarch" finished-at="2024-03-03T03:15:59 IST" depends-on-methods="TestCases.TC004_CartAproduct.login" duration-ms="11709" status="PASS">
+        <test-method signature="Cart()[pri:2, instance:TestCases.TC005_purchase@5b12b668]" started-at="2024-03-03T21:54:15 IST" name="Cart" finished-at="2024-03-03T21:54:25 IST" depends-on-methods="TestCases.TC005_purchase.login" duration-ms="10333" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Scarch -->
-        <test-method is-config="true" signature="close()[pri:0, instance:TestCases.TC004_CartAproduct@77c2494c]" started-at="2024-03-03T03:15:59 IST" name="close" finished-at="2024-03-03T03:16:00 IST" duration-ms="316" status="PASS">
+        </test-method> <!-- Cart -->
+        <test-method signature="purchase()[pri:3, instance:TestCases.TC005_purchase@5b12b668]" started-at="2024-03-03T21:54:25 IST" name="purchase" finished-at="2024-03-03T21:54:33 IST" depends-on-methods="TestCases.TC005_purchase.login, TestCases.TC005_purchase.Cart" duration-ms="7933" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- TestCases.TC004_CartAproduct -->
-      <class name="TestCases.TC001_registration">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC001_registration@139982de]" started-at="2024-03-03T03:14:49 IST" name="setup" finished-at="2024-03-03T03:15:09 IST" duration-ms="20420" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="homepage()[pri:1, instance:TestCases.TC001_registration@139982de]" started-at="2024-03-03T03:15:09 IST" name="homepage" finished-at="2024-03-03T03:15:10 IST" duration-ms="858" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- homepage -->
-        <test-method signature="Registration()[pri:2, instance:TestCases.TC001_registration@139982de]" started-at="2024-03-03T03:15:10 IST" name="Registration" finished-at="2024-03-03T03:15:13 IST" depends-on-methods="TestCases.TC001_registration.homepage" duration-ms="3053" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Registration -->
-        <test-method is-config="true" signature="close()[pri:0, instance:TestCases.TC001_registration@139982de]" started-at="2024-03-03T03:15:13 IST" name="close" finished-at="2024-03-03T03:15:14 IST" duration-ms="498" status="PASS">
+        </test-method> <!-- purchase -->
+        <test-method is-config="true" signature="close()[pri:0, instance:TestCases.TC005_purchase@5b12b668]" started-at="2024-03-03T21:54:33 IST" name="close" finished-at="2024-03-03T21:54:33 IST" duration-ms="379" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-      </class> <!-- TestCases.TC001_registration -->
-    </test> <!-- master1 -->
-  </suite> <!-- Suite -->
+      </class> <!-- TestCases.TC005_purchase -->
+    </test> <!-- mytest -->
+  </suite> <!-- mySuite -->
 </testng-results>

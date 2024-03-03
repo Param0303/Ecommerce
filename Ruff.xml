@@ -5,7 +5,7 @@
 	 <parameter name="os" value="windows"></parameter> 
 	 <parameter name="br" value="chrome"></parameter>
     <classes>
-         <class name="TestCases.TC004_CartAproduct"/>
+         <class name="TestCases.TC005_purchase"/>
     </classes>
   </test> 
 </suite> 

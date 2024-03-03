@@ -5,14 +5,15 @@
     <parameter name="br" value="chrome"/>
     <parameter name="os" value="windows"/>
     <classes>
-      <class name="TestCases.TC004_CartAproduct">
+      <class name="TestCases.TC005_purchase">
         <methods>
-          <include name="login"/>
-          <include name="Scarch"/>
+          <include name="purchase"/>
           <include name="setup"/>
+          <include name="Cart"/>
+          <include name="login"/>
           <include name="close"/>
         </methods>
-      </class> <!-- TestCases.TC004_CartAproduct -->
+      </class> <!-- TestCases.TC005_purchase -->
     </classes>
   </test> <!-- mytest(failed) -->
 </suite> <!-- Failed suite [mySuite] -->

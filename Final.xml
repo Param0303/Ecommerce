@@ -18,7 +18,8 @@
     <classes>
       <class name="TestCases.TC001_registration"/>
        <class name="TestCases.TC002_Login"/>
-       <class name="TestCases.TC004_CartAproduct"/>
+       <class name="TestCases.TC004_CartAproduct"/> 
+       <class name="TestCases.TC005_purchase"/>
     </classes>
   </test> 
 
