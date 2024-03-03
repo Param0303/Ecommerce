@@ -2,12 +2,14 @@ C:\Eclipse workspace\Ecommerce\src\test\java\PageObject\BaseConstructor.java
 C:\Eclipse workspace\Ecommerce\src\test\java\PageObject\BaseHomePage.java
 C:\Eclipse workspace\Ecommerce\src\test\java\PageObject\CartAProductPage.java
 C:\Eclipse workspace\Ecommerce\src\test\java\PageObject\LoginPage.java
+C:\Eclipse workspace\Ecommerce\src\test\java\PageObject\Purchase_page.java
 C:\Eclipse workspace\Ecommerce\src\test\java\PageObject\RegisterPage.java
 C:\Eclipse workspace\Ecommerce\src\test\java\TestBaseClass\BaseClass1.java
 C:\Eclipse workspace\Ecommerce\src\test\java\TestCases\TC001_registration.java
 C:\Eclipse workspace\Ecommerce\src\test\java\TestCases\TC002_Login.java
 C:\Eclipse workspace\Ecommerce\src\test\java\TestCases\TC003_Login_DDT.java
 C:\Eclipse workspace\Ecommerce\src\test\java\TestCases\TC004_CartAproduct.java
+C:\Eclipse workspace\Ecommerce\src\test\java\TestCases\TC005_purchase.java
 C:\Eclipse workspace\Ecommerce\src\test\java\UtilityPackage\DataProviders.java
 C:\Eclipse workspace\Ecommerce\src\test\java\UtilityPackage\ExtentReportManager.java
 C:\Eclipse workspace\Ecommerce\src\test\java\UtilityPackage\UtilityFiles.java

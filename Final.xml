@@ -4,7 +4,7 @@
 	<listeners>
 		<listener class-name="UtilityPackage.ExtentReportManager"></listener>
 	</listeners>
-  <test thread-count="4" name="master1">
+  <test thread-count="5" name="master1">
 	 <parameter name="os" value="windows"></parameter> 
 	 <parameter name="br" value="chrome"></parameter>
 	 <groups>
@@ -21,6 +21,5 @@
        <class name="TestCases.TC004_CartAproduct"/> 
        <class name="TestCases.TC005_purchase"/>
     </classes>
-  </test> 
-
+   </test> 
 </suite> 
