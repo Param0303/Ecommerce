@@ -1,0 +1,13 @@
+TestBaseClass\BaseClass1.class
+TestCases\TC004_CartAproduct.class
+UtilityPackage\UtilityFiles.class
+PageObject\BaseHomePage.class
+UtilityPackage\ExtentReportManager.class
+TestCases\TC002_Login.class
+PageObject\BaseConstructor.class
+PageObject\RegisterPage.class
+PageObject\LoginPage.class
+TestCases\TC003_Login_DDT.class
+UtilityPackage\DataProviders.class
+PageObject\CartAProductPage.class
+TestCases\TC001_registration.class
